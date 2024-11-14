@@ -249,7 +249,8 @@ export class FrameParser {
         };
         break;
 
-      case 'GEOB': {  // General encapsulated object
+      case 'GEOB':
+      case 'GEO': {  // General encapsulated object
         fzero = util.findZero(uint8Array, offset + 1, length, encoding);
         const mimeType = util.decodeString(uint8Array.slice(offset + 1, fzero), defaultEnc);
         offset = fzero + 1;

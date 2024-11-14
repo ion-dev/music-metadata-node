@@ -1,5 +1,5 @@
 {
-  "name": "music-metadata",
+  "name": "music-metadata-node",
   "description": "Music metadata parser for Node.js, supporting virtual any audio and tag format.",
   "version": "7.14.0",
   "author": {
